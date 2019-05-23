@@ -1,0 +1,52 @@
+Productive Outlaws - Hollow
+(Graduate Project)
+
+CGM - 20/20
+	There's a lot of cool stuff here.
+	Typical platforming, with a wall-climbing system 
+	that complements movement well.
+	Combat's there, in a few different forms.
+	Character switching works, and the AI for the other character
+	is decently implemented.
+	
+	One recommendation I have: both saber and archer are controlled
+	with the same scheme. If you used an external controller object
+	& just told it which character to feed instructions to, you
+	could severely reduce the amount of code needed in each character.
+	(also, with the proper setup most of their behavior can be abstracted to a base object)
+	
+Documentation - 10/10
+
+Sprites - 10/10
+	Significant actors are all animated appropriately
+
+Artwork - 10/10
+	Artwork is harmonious, with minimal clashing between elements.
+	Actors, props & environment are all visually distinguishable.
+
+Rooms/Level Design - 10/10
+	Level design largely features two paths - one high, one low.
+	Due to the nature of the AI, they'll usually end up on the lower path.
+	Sticking to the top path allows you to deal with archers, while
+	allowing the AI character to demonstrate their own prowess.
+	The topology of the landscape seems to be designed with the 
+	wall-climbing ability in mind, as it's very easy to flow freely across it,
+	which allows the player to free up their concentration and focus on combat.
+
+Music/Sound effects - 5/10
+	Music is present, but no sounds.
+
+Objects - 3/5
+	The point of parents & inheritence is to avoid having to repeat shared behavior.
+	Having base objects for players & enemies 
+	doesn't accomplish anything if there's no defined base behavior.
+
+Paths - 5/5
+Challenge - 3/5
+	In my experience, the damage inflicted by enemies was offset from
+	the healing delivered by regularly leveling up.
+	In addition, with the very high movement speed it's very easy to
+	run through the crowds without engaging in combat.
+
+Cheat Codes - 5/5
+HUD/Scoring/Win & End - 10/10
